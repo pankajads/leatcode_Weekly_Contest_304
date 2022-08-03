@@ -1,3 +1,6 @@
+from winreg import HKEY_LOCAL_MACHINE
+
+
 class Solution(object):
     def maximumGroups(self, grades):
         """
@@ -16,3 +19,5 @@ class Solution(object):
                 group
                 
         return group
+
+ 
